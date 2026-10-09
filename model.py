@@ -49,3 +49,4 @@ class Model:
                     # Parità: arco bidirezionale
                     self._graph.add_edge(c1, c2, weight=peso)
                     self._graph.add_edge(c2, c1, weight=peso)
+
